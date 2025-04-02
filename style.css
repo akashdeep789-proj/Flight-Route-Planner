@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #B3E5FC, #E0F7FA); /* Light Blue Gradient */
+    color: black;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #FFD700;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+select {
+    background: white;
+    color: black;
+}
+
+button {
+    background: #FFD700;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #FFA500;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #00FF00;
+}
